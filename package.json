@@ -1,0 +1,22 @@
+{
+  "name": "food-menu",
+  "version": "1.0.0",
+  "description": "Food Menu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravi19999/Food-Menu.git"
+  },
+  "author": "Ravi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravi19999/Food-Menu/issues"
+  },
+  "homepage": "https://github.com/ravi19999/Food-Menu#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
