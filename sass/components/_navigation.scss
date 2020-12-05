@@ -1,0 +1,72 @@
+h3{
+    text-align: center;
+    &:hover {
+        color: yellow;
+        cursor: pointer;
+
+    }
+}
+
+.navigation {
+    color: $color-white;
+    width: 90vw;
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navigation-item {
+    border-radius: 25px;
+    width: 200px;
+    height:200px;
+    text-align:center;
+    position: relative;
+
+    &:hover{
+        cursor:pointer;
+        backdrop-filter: blur(10px)
+    }
+}
+
+.explore {
+     margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  background-color: rgba(1,1,1,0.5);
+  color: yellow;
+  display: none;
+}
+
+.breakfast{
+    color:black;
+    background-image:url(https://images.chairmansbrands.com/UploadImages/Eggsmart/News/Images/News-20160222040437850-L.jpg);
+    &:hover {
+        color: white;
+    }
+}
+
+.lunch{
+    background-image:url(https://d329jirxh7znrd.cloudfront.net/recipes-3/wp-content/uploads/sites/322/2019/11/recipe9.png);
+    &:hover {
+        color: black;
+    }
+}
+
+.dinner{
+    background-image:url(https://www.carecraftfallmeeting.com/wp-content/uploads/2019/06/Chicken-Dinner-SQ.jpg);
+    &:hover {
+        color:  black;
+    }
+}
