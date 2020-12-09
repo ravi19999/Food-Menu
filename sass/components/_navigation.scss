@@ -9,7 +9,6 @@ h3{
 
 .navigation {
     color: $color-white;
-    width: 90vw;
     background-color: #63d471;
     background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
     height: 300px;
@@ -29,29 +28,42 @@ h3{
     height:200px;
     text-align:center;
     position: relative;
+    overflow: hidden;
 
     &:hover{
         cursor:pointer;
-        backdrop-filter: blur(10px)
+        backdrop-filter: blur(10px);
     }
 }
 
 .explore {
-     margin: 0;
+margin: 0;
   position: absolute;
   top: 75%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 100%;
-  background-color: rgba(1,1,1,0.5);
-  color: yellow;
-  display: none;
-}
+  height: 20%;
+  background-color:rgba(0,0,0,0);
+  color: white;
+  border: none;
+
+  &:hover{
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);    opacity: 80%;
+    color: black;
+    cursor: inherit;
+    }
+  }
+  
+//   display: none;
+
+
+
 
 .breakfast{
     color:black;
-    background-image:url(https://images.chairmansbrands.com/UploadImages/Eggsmart/News/Images/News-20160222040437850-L.jpg);
+    background-image:url(https://simply-delicious-food.com/wp-content/uploads/2018/10/breakfast-board-500x500.jpg);
     &:hover {
         color: white;
     }
